@@ -1,1 +1,1 @@
-# Sample-API-project-for-Swagger
+# Katalon Studio Samples: Sample-API-project-for-Swagger
