@@ -15,24 +15,35 @@ These instruction will get you a copy of the project up and running on your loca
 ### Setting Up
 - [Check out](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository) the code from this .git
 - [Open the project](https://docs.katalon.com/katalon-studio/docs/manage-test-project.html) from Katalon Studio
-- Import swagger by using url or file location: 
-### Send request with simple case
-## GET METHOD
+- Import swagger by using url or file location: [image]
+### Send request with simple cas
 #Story#: Find Pets by status
 - After import successfully, user able to find pets by status. First, user must verify what parameter work with it? how many status in this data, refer this link at find pests by status: https://petstore.swagger.io/v2/swagger.json
 - Add parameter with value choose at enum( available, pending, sold)
+- Send request and have a result response: [image]
 
-### Story: Create issue with defined information
-```Gherkin     
-   User story
-        As a Jira user, I would like to be able to create a new issue with defined information via web service, so that I could manage my issues without logging in Jira web application
-     
-      Feature: Create issue
-          Scenario: Create issue with defined information successfully
-	    Given The web serice is available
-	    When I send a request to create issue with defined information
-	    Then The issue is created successfully in the system
-```
+### Story: Get pet by id
+- Input Id at Variables tab
+**Note: Follow here at json file: /pet/{petId}
+
+### Story: Login user
+- 
+
+### Story: Get pet by id
+- Input Id at Variables tab
+**Note: Follow here at json file: /pet/{petId}
+
+### Story: Get pet by id
+- Input Id at Variables tab
+**Note: Follow here at json file: /pet/{petId}
+
+### Story: Get pet by id
+- Input Id at Variables tab
+**Note: Follow here at json file: /pet/{petId}
+
+### Story: Get pet by id
+- Input Id at Variables tab
+**Note: Follow here at json file: /pet/{petId}
 ## Test Cases	
     - Simple Test Cases
     - Advance Test Cases
